@@ -6,6 +6,7 @@ html {
 body {
     max-width: 85%;
     margin: 0 auto;
+    padding-bottom: 25px;
 }
 
 h1 {
@@ -22,6 +23,7 @@ h2 {
     color: #0D7A75;
     font-size: 24px;
     font-weight: bolder;
+    padding-left: 24px;
 }
 
 h3 {
@@ -29,11 +31,18 @@ h3 {
     font-size: 18px;
     font-weight: lighter;
     font-style: italic;
+    padding-left: 24px;
 }
 
 p {
     font-family: sans-serif;
     font-weight: 100;
+    padding-left: 24px;
+}
+
+ul,
+ol{
+    padding-left: 80px;
 }
 
 li {
@@ -45,6 +54,7 @@ li {
 img {
     height: auto;
     width: 200;
+    padding: 24px 24px 10px 24px;
 }
 
 a {
@@ -54,12 +64,15 @@ a {
 .background {
     background: rgb(255, 255, 255);
     padding-bottom: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .index-link {
     color: white;
     background-color: #0D7A75;
     text-align: center;
+    text-decoration: none;
+    font-size: 24px;
     padding: 16px;
     margin: 1em;
     display: block;
